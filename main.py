@@ -1,5 +1,6 @@
 import re
 import argparse
+import os
 
 # Translation dictionary: Hebrew to C
 hebrew_to_c = {
@@ -117,6 +118,10 @@ def main(input, output):
     c_code = translate_to_c(hebrew_code, hebrew_to_c)
     with open(output, "w", encoding="utf-8") as file:
         file.write(c_code)
+    
+    # Compile
+    os.system(f"gcc {output}")
+    os.system("a.exe")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Translate כ code to C")
