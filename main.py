@@ -53,7 +53,7 @@ hebrew_to_c = {
     "ישורשל": "alignof",
     "אלתחזיר": "noreturn",
     "הקצה": "malloc",
-    "הקצהבלוקים": "calloc",
+    "הקצהואפס": "calloc",
     "הקצהמחדש": "realloc",
     "שחרר": "free",
     "צא": "exit",
