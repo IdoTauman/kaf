@@ -16,7 +16,7 @@ hebrew_to_c = {
     "מספור": "enum",
     "צורסוג": "typedef",
     "נדיף": "volatile",
-    "סטטי": "static",
+    "נייח": "static",
     "אוטומטי": "auto",
     "איחוד": "union",
     "רשם": "register",
